@@ -1,0 +1,127 @@
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+minimal_mistakes_skin: "air"
+
+# Site Settings
+locale: "en-US"
+title: "Sabith Haneef"
+name: "Sabith Haneef"
+description: "Sabith's Portfolio Website"
+url: "https://sabith-th.github.io"
+repository: "sabith-th/sabith-th.github.io"
+masthead_title: "Code. Compile. Repeat."
+words_per_minute: 200
+
+# Site Author
+author:
+  name: "Sabith Haneef"
+  bio: "Software Engineer. Currently pursuing MS in Software Systems Engineering at RWTH Aachen."
+  avatar: "/assets/images/profile.jpg"
+  location: "Aachen, Germany"
+  email: "sabith.th.07@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sabith.th.07@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sabith-th.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sabith-th"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sabith-t-h-21a29716b"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sabith-th"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sabith-t-h-21a29716b"
+
+atom_feed:
+  hide: true
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _includes
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
