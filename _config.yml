@@ -18,7 +18,6 @@ author:
   bio: "Software Engineer. Currently pursuing MS in Software Systems Engineering at RWTH Aachen."
   avatar: "/assets/images/profile.jpg"
   location: "Aachen, Germany"
-  email: "sabith.th.07@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -32,16 +31,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sabith-t-h-21a29716b"
-
-# Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sabith-th"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/sabith-t-h-21a29716b"
+    - label: "Europass"
+      icon: "fas fa-fw fa-user"
+      url: "https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/d59d2a06-fe81-4810-890f-59c465f097ed?view=html"
 
 atom_feed:
   hide: true
