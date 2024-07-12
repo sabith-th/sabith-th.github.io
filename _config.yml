@@ -15,7 +15,7 @@ words_per_minute: 200
 # Site Author
 author:
   name: "Sabith Haneef"
-  bio: "Software Engineer. Currently pursuing MS in Software Systems Engineering at RWTH Aachen."
+  bio: "Software Systems Engineering M.Sc."
   avatar: "/assets/images/profile.jpg"
   location: "Aachen, Germany"
   links:
@@ -33,7 +33,7 @@ author:
       url: "https://www.linkedin.com/in/sabith-t-h-21a29716b"
     - label: "Europass"
       icon: "fas fa-fw fa-user"
-      url: "https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/sabith+thaiparambil-haneef/421a0350-6dab-4baf-952d-d6c03ca5003d?view=html"
+      url: "https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/sabith-haneef/103a3d55-b484-4c72-bad9-9d9ea4dc4166?view=html"
 
 atom_feed:
   hide: true

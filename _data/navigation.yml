@@ -1,5 +1,7 @@
 main:
   - title: About Me
     url: "/#about-me"
+  - title: Certifications
+    url: "/#certifications"
   - title: Personal Projects
     url: "/#projects"
